@@ -1,8 +1,8 @@
-com/fju/Car.java
- com.fju.Car
-com/fju/Car2.java
- com.fju.Car2
+com/fju/Score2.java
+ com.fju.Score2
 com/fju/Tester.java
  com.fju.Tester
-com/fju/Car1.java
- com.fju.Car1
+com/fju/Score1.java
+ com.fju.Score1
+com/fju/Score.java
+ com.fju.Score

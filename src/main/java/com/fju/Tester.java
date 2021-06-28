@@ -1,42 +1,43 @@
 package com.fju;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
-
 public class Tester {
     public static void main(String[] args) {
-        List Car = new ArrayList();
-       // Car.add(new Car1());
-        System.out.println(Car);
-        try {
-            SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
-            Date d = sdf.parse("06:20");
-            System.out.println(d);
 
-        } catch (ParseException e) {
-            e.printStackTrace();
+        Score[] Score = new Score[2];
+        Score[0] = new Score1();
+        Score[1] = new Score2();
+
+        //System.out.println(Score[0].name);
+
+        Score score = new Score1();
+        int avg = score.average();
+        System.out.println(avg);
+        String grading = " ";
+        switch (avg / 10) {
+            case 10:
+                grading = "A";
+                break;
+            case 9:
+                grading = "A";
+                break;
+            case 8:
+                grading = "B";
+                break;
+            case 7:
+                grading = "C";
+                break;
+            case 6:
+                grading = "D";
+                break;
+            default:
+                grading = "F";
+                break;
+
         }
-        Calendar cal = Calendar.getInstance();
-
-//        cal.set(Calendar.HOUR_OF_DAY, 8);
-//        cal.set(Calendar.MINUTE, 30);
-
-        System.out.println(cal.getTime());
+        System.out.println(grading);
+        score.print();
 
 
-        Car car = new Car("abc-123", "07:20");
-        Car car1 = new Car("def-234", "07:50");
-        System.out.println(car.enter);
-
-        Date now = new Date();
-        System.out.println(now.getTime());
-
-        long dis = now.getTime() - car.enter.getTime();
-        System.out.println(dis);
     }
 }
 

@@ -1,8 +1,24 @@
+com/fju/Score8.java
+ com.fju.Score8
+com/fju/Score5.java
+ com.fju.Score5
+com/fju/Score6.java
+ com.fju.Score6
+com/fju/Score3.java
+ com.fju.Score3
 com/fju/Score2.java
  com.fju.Score2
 com/fju/Tester.java
  com.fju.Tester
+com/fju/Score7.java
+ com.fju.Score7
+com/fju/Score10.java
+ com.fju.Score10
+com/fju/Score4.java
+ com.fju.Score4
 com/fju/Score1.java
  com.fju.Score1
+com/fju/Score9.java
+ com.fju.Score9
 com/fju/Score.java
  com.fju.Score

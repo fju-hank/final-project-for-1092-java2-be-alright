@@ -28,8 +28,10 @@ public class Score {
     }
 
     public void print() {
+        //System.out.println("name"+"\t"+"chinese"+"\t"+"english"+"\t"+"math"+"\t"+"science");
         System.out.println(name + "\t" + chinese + "\t" + english + "\t" + math + "\t" + science + "\t");
     }
+
 }
 
 

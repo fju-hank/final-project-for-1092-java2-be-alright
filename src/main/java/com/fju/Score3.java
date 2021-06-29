@@ -7,7 +7,7 @@ public class Score3 extends Score {
         chinese = 90;
         english = 85;
         math = 72;
-        science = 60;
+        science = 88;
         average = average();
     }
 }

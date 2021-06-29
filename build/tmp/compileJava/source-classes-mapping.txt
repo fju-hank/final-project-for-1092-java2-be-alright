@@ -18,7 +18,20 @@ com/fju/Score4.java
  com.fju.Score4
 com/fju/Score1.java
  com.fju.Score1
-com/fju/Score9.java
- com.fju.Score9
 com/fju/Score.java
  com.fju.Score
+com/fju/Score9.java
+ com.fju.Score9
+com/fju/Student.java
+ com.fju.JOptionPaneDemo
+ com.fju.Student
+ com.fju.Student$1
+ com.fju.Student$10
+ com.fju.Student$2
+ com.fju.Student$3
+ com.fju.Student$4
+ com.fju.Student$5
+ com.fju.Student$6
+ com.fju.Student$7
+ com.fju.Student$8
+ com.fju.Student$9

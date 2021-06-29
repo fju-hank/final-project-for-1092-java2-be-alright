@@ -16,7 +16,7 @@ public class Tester {
         Score[9] = new Score10();
         //System.out.println(Score[0].name);
 
-        Score score = new Score6();
+        Score score = new Score9();
         int avg = score.average();
         System.out.println(avg);
         String grading = " ";
